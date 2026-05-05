@@ -106,3 +106,62 @@ section {
   border-radius: 5px;
   font-weight: bold;
 }
+.btn-github {
+  background: #22c55e;
+  color: black;
+}
+
+.btn-github:hover {
+  background: #16a34a;
+}
+.buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* BASE */
+.btn {
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+/* BOTÓN PRINCIPAL */
+.primary {
+  background: #38bdf8;
+  color: black;
+}
+
+.primary:hover {
+  background: #0ea5e9;
+  transform: translateY(-2px);
+}
+
+/* GITHUB */
+.github {
+  background: #111827;
+  color: white;
+  border: 1px solid #374151;
+}
+
+.github:hover {
+  background: #1f2937;
+  transform: translateY(-2px);
+}
+
+/* OUTLINE */
+.outline {
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+}
+
+.outline:hover {
+  background: #38bdf8;
+  color: black;
+  transform: translateY(-2px);
+}
